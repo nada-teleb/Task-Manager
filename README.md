@@ -6,4 +6,5 @@ Project contains:
 2. Perform CRUD operations on the data.
 
 ## Project Setup
-//to-do
+  * run _npm install_ in starter folder
+  * 

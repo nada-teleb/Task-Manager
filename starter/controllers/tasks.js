@@ -1,8 +1,27 @@
 const getAllTasks = (req, res) => {
-    res.send("All items");
+    res.send("Get all tasks");
 };
 
+const createTask = (req, res) => {
+    res.send("Create task");
+};
+
+const getTask = (req, res) => {
+    res.send("Get a single task");
+};
+
+const updateTask = (req, res) => {
+    res.send("Update task");
+};
+
+const deleteTask = (req, res) => {
+    res.send("Delete task");
+};
 
 module.exports = {
-    getAllTasks: getAllTasks
+    getAllTasks,
+    createTask,
+    getTask,
+    updateTask,
+    deleteTask
 };
